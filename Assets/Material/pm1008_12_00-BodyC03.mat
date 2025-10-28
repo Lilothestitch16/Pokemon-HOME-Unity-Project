@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pm1008_12_00-BodyC03
+  m_Shader: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - USE_LAYER1
+  m_InvalidKeywords:
+  - SWITCH_BASECOLOR_ADD_SPECULAR
+  - USE_EMISSION_MASK_TEX
+  - _ALPHAPREMULTIPLY_ON
+  - _ZWRITE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Col0Tex:
+        m_Texture: {fileID: 2800000, guid: 48f4e003edd3ca24ab9ce22fd11fa2b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EmissionMaskTex:
+        m_Texture: {fileID: 2800000, guid: 843be0809df459e46bd613b4c33db9cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _L1Col0Tex:
+        m_Texture: {fileID: 2800000, guid: 14d6380341f1dc44cb1e9e5ad8844d91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SphereMapTex:
+        m_Texture: {fileID: 2800000, guid: 8a7bc57a8783bc04e821f29bec4edcb6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _BaseColorAddEnable: 1
+      _BlendMode: 0
+      _ColorBaseU: 0
+      _ColorBaseV: 0
+      _ColorMapUvIndex: 0
+      _ConstantAlpha: 1
+      _ConstantColor0Val: 1
+      _ConstantColorSd0Val: 1
+      _ConstantColorValue: 1
+      _CullMode: 2
+      _DiscardValue: 0.5
+      _DstBlend: 0
+      _EmissionMaskUse: 1
+      _EmissionMaskVal: 1
+      _L1AddColor0Val: 0
+      _L1ConstantColor0Val: 1
+      _L1ConstantColorSd0Val: 1
+      _Layer1BaseU: 0
+      _Layer1BaseV: 0
+      _Layer1Enable: 1
+      _Layer1OverLerpValue: 1
+      _Layer1UvIndex: 0
+      _LayerCalcMulti: 0
+      _LightColorValue: 1
+      _PokemonStencil: 129
+      _RimColorValue: 0
+      _RimMaskEnable: 0
+      _RimPower: 8
+      _RimStrength: 8
+      _SpecularMaskEnable: 0
+      _SpecularPower: 40
+      _SpecularScale: 0.5
+      _SphereMapColorVal: 0.6
+      _SphereMaskEnable: 0
+      _SrcBlend: 1
+      _StencilComp: 0
+      _StencilOp: 0
+      _SwitchEmissionMaskTexUV: 0
+      _SwitchPriority: 0
+      _ZTest: 4
+      _ZWrite: 1
+    m_Colors:
+      _ConstantColor: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _ConstantColor0: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _ConstantColorSd0: {r: 0.8543043, g: 0.8543043, b: 0.8543043, a: 1}
+      _L1AddColor0: {r: 1.0832808, g: 1.0832808, b: 1.0832808, a: 1}
+      _L1ConstantColor0: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _L1ConstantColorSd0: {r: 0.8543043, g: 0.8543043, b: 0.8543043, a: 1}
+      _RimColor: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _RimColorShadow: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _SpecularColor: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _SphereMapColor: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+  m_BuildTextureStacks: []

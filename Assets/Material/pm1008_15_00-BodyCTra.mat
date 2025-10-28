@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pm1008_15_00-BodyCTra
+  m_Shader: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 2}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - PARALLAX_L0
+  - USE_EMISSION_COLOR_TEX
+  - USE_LAYER1
+  m_InvalidKeywords:
+  - EMIT_COLOR_ADD
+  - SWITCH_BASECOLOR_ADD_SPECULAR
+  - SWITCH_EMISSION_MASK_TEX_UV
+  - USE_EMISSION_MASK_TEX
+  - _ALPHAPREMULTIPLY_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Col0Tex:
+        m_Texture: {fileID: 2800000, guid: 48f4e003edd3ca24ab9ce22fd11fa2b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EmissionColorTex:
+        m_Texture: {fileID: 2800000, guid: 4392f3204b760dc4585e16d7e69f1475, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EmissionMaskTex:
+        m_Texture: {fileID: 2800000, guid: 843be0809df459e46bd613b4c33db9cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _L1Col0Tex:
+        m_Texture: {fileID: 2800000, guid: 14d6380341f1dc44cb1e9e5ad8844d91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ParallaxHeightMap:
+        m_Texture: {fileID: 2800000, guid: 859432f0db0b66f4385f08b8eebd0344, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SphereMapTex:
+        m_Texture: {fileID: 2800000, guid: 2914b9b9b8e20f646bfe96e89bbc6b2d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      _ApplyAlphaToTransparency: 0
+      _AvoidEdge: 0
+      _BaseColorAddEnable: 1
+      _BlendMode: 1
+      _ColorBaseU: 0
+      _ColorBaseV: 0
+      _ColorMapUvIndex: 1
+      _ConstantAlpha: 1
+      _ConstantColor0Val: 1
+      _ConstantColorSd0Val: 1
+      _ConstantColorValue: 1
+      _CullMode: 2
+      _DiscardValue: 0.5
+      _DstBlend: 10
+      _EmissionColorAddMode: 1
+      _EmissionColorValue: 1
+      _EmissionMaskUse: 1
+      _EmissionMaskVal: 1
+      _HeightBaseU: 0
+      _HeightBaseV: 0
+      _HeightMapUvIndex: 0
+      _L1AddColor0Val: 0
+      _L1ConstantColor0Val: 1
+      _L1ConstantColorSd0Val: 1
+      _Layer1BaseU: 0
+      _Layer1BaseV: 0
+      _Layer1Enable: 1
+      _Layer1OverLerpValue: 1
+      _Layer1UvIndex: 0
+      _LayerBlendMode: 0
+      _LayerCalcMulti: 0
+      _LightColorValue: 1
+      _ParallaxIntensity_L0: -0.03
+      _ParallaxIntensity_L1: 0
+      _PokemonStencil: 129
+      _RimColorValue: 0
+      _RimMaskEnable: 0
+      _RimPower: 8
+      _RimStrength: 8
+      _SpecularMaskEnable: 0
+      _SpecularPower: 1
+      _SpecularScale: 0.1
+      _SphereMapAlphaVal: 1
+      _SphereMapColorVal: 1
+      _SphereMapMode: 0
+      _SphereMaskEnable: 0
+      _SrcBlend: 5
+      _StencilComp: 0
+      _StencilOp: 0
+      _SwitchEmissionColorTexUV: 0
+      _SwitchEmissionMaskTexUV: 1
+      _SwitchPriority: 0
+      _UseEmissionColorTex: 1
+      _UseLayerMaskToEmission: 0
+      _UseParallax_L0: 1
+      _UseParallax_L1: 0
+      _WarpLatticeU: 4
+      _WarpLatticeV: 4
+      _ZTest: 4
+      _ZWrite: 0
+    m_Colors:
+      _ConstantColor: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _ConstantColor0: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _ConstantColorSd0: {r: 0.8543043, g: 0.8543043, b: 0.8543043, a: 1}
+      _EmissionColor: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _L1AddColor0: {r: 1.2282268, g: 1.2282268, b: 1.2282268, a: 1}
+      _L1ConstantColor0: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _L1ConstantColorSd0: {r: 0.8543043, g: 0.8543043, b: 0.8543043, a: 1}
+      _RimColor: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _RimColorShadow: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _SpecularColor: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+      _SphereMapColor: {r: 1.0000067, g: 1.0000067, b: 1.0000067, a: 1}
+  m_BuildTextureStacks: []
